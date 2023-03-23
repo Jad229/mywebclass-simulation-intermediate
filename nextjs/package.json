@@ -1,4 +1,13 @@
 {
+  "name": "nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "next": "^12.1.0",
     "react": "^17.0.2",
