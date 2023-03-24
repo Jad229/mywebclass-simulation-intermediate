@@ -1,6 +1,4 @@
 // index.html
-import "bootstrap/dist/css/bootstrap.css";
-import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 function HomePage() {
