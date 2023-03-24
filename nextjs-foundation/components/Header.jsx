@@ -2,35 +2,37 @@ function Header() {
   return (
     <div>
       <header role="banner" class="fixed-top">
-        <nav
-          role="navigation"
-          aria-label="Main navigation"
-          class="navbar navbar-expand-lg navbar-dark bg-dark"
-        >
-          <div class="container">
-            <a class="navbar-brand" href="/">
-              MyWebClass.org
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse"
-              aria-controls="navbarCollapse"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Toggle navigation</span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="content.html">
-                    Content Template
+        <nav role="navigation" aria-label="Main navigation" class="top-bar">
+          <div class="grid-container">
+            <div class="grid-x grid-padding-x align-middle">
+              <div class="cell shrink">
+                <h5>
+                  <a class="menu-text" href="/">
+                    MyWebClass.org
                   </a>
-                </li>
-              </ul>
+                </h5>
+              </div>
+              <div class="cell auto">
+                <div class="top-bar-right">
+                  <ul class="menu">
+                    <li>
+                      <a href="content.html">Content Template</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cell shrink">
+                <button
+                  class="menu-icon"
+                  type="button"
+                  data-toggle="top-bar"
+                  aria-expanded="false"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
             </div>
           </div>
         </nav>
