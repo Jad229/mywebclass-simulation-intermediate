@@ -1,6 +1,8 @@
 // index.html
 import "bootstrap/dist/css/bootstrap.css";
 import { useState } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 function HomePage() {
   return (
     <div class="pt-5">
@@ -27,40 +29,7 @@ function HomePage() {
         <meta property="og:url" content="" />
       </head>
 
-      <header role="banner" class="fixed-top">
-        <nav
-          role="navigation"
-          aria-label="Main navigation"
-          class="navbar navbar-expand-lg navbar-dark bg-dark"
-        >
-          <div class="container">
-            <a class="navbar-brand" href="/">
-              MyWebClass.org
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse"
-              aria-controls="navbarCollapse"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Toggle navigation</span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="content.html">
-                    Content Template
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
       <main>
         <div class="container my-5">
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-0 align-items-center rounded-3 border shadow-lg ">
@@ -93,72 +62,7 @@ function HomePage() {
           </div>
         </div>
       </main>
-      <footer class="py-5 container">
-        <div class="row">
-          <div class="col">
-            <h5>About Us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <li class="nav-item mb-2">
-                  <a href="story.html" class="nav-link p-0 text-muted">
-                    Our Story
-                  </a>
-                </li>
-
-                <a
-                  class="nav-link mb-2 p-0 text-muted active"
-                  aria-current="page"
-                  href="privacy.html"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-3 ">
-            <h5>Share on Social Media</h5>
-            <ul class="nav">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
-                  <i class="bi bi-linkedin me-2"></i>
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
-                  <i class="bi bi-twitter me-2"></i>
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
-                  <i class="bi bi-facebook me-2"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
-                  Email address
-                </label>
-                <input
-                  id="newsletter1"
-                  type="text"
-                  class="form-control"
-                  placeholder="Email address"
-                />
-                <button class="btn btn-primary" type="button">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
