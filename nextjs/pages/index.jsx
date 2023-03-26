@@ -13,7 +13,7 @@ function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* <!--Basic meta info --> */}
-        <meta name="keywords" content="My Webclass Homepage" />
+        <meta name="keywords" content="MyWebClass, software engineering skills, teaching, learning journey, advanced technologies, students, education, online learning, e-learning, web development, coding, programming, curriculum, courses, tutorials, instructors, education technology, virtual classroom, distance learning, student engagement" />
         <meta name="author" content="Keith Williams" />
         <meta
           name="description"
