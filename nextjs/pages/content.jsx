@@ -9,6 +9,8 @@ function Content() {
 
         <title>MyWebClass.org | Privacy Policy</title>
         <meta charset="UTF-8" />
+        <meta name="keywords" content="MyWebClass, software engineering skills, teaching, learning journey, advanced technologies, students, education, online learning, e-learning, web development, coding, programming, curriculum, courses, tutorials, instructors, education technology, virtual classroom, distance learning, student engagement" />
+      
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
