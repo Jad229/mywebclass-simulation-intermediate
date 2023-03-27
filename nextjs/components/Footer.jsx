@@ -1,6 +1,8 @@
+import React from "react";
+
 function Footer() {
   return (
-    <footer class="py-5 container">
+    <footer class="py-5 container" role="contentinfo">
       <div class="row">
         <div class="col">
           <h5>About Us</h5>
@@ -27,18 +29,18 @@ function Footer() {
           <h5>Share on Social Media</h5>
           <ul class="nav">
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">
-                <i class="bi bi-linkedin me-2"></i>
+              <a href="#" class="nav-link p-0 text-muted" aria-label="LinkedIn">
+                <i class="bi bi-linkedin me-2" role="img" aria-label="LinkedIn icon"></i>
               </a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">
-                <i class="bi bi-twitter me-2"></i>
+              <a href="#" class="nav-link p-0 text-muted" aria-label="Twitter">
+                <i class="bi bi-twitter me-2" role="img" aria-label="Twitter icon"></i>
               </a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">
-                <i class="bi bi-facebook me-2"></i>
+              <a href="#" class="nav-link p-0 text-muted" aria-label="Facebook">
+                <i class="bi bi-facebook me-2" role="img" aria-label="Facebook icon"></i>
               </a>
             </li>
           </ul>
