@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"_app.js -> foundation-sites/dist/js/foundation.min.js":{"id":"_app.js -> foundation-sites/dist/js/foundation.min.js","files":["static/chunks/node_modules_foundation-sites_dist_js_foundation_min_js.js"]}}
